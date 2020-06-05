@@ -13,6 +13,5 @@ const handler = {
 
 const object = 'new Proxy({}, ' + object2string(handler) + ')'
 console.log('=== handler ===', object)
-// const object = new Dog('Meng')
 
 export default object
